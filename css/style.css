@@ -1,0 +1,27 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    background-color: #AD8350;
+}
+#welcome-section{
+    height: 100vh;
+    text-align: center;
+    background-color: #764134;
+    color: white;
+    font-size: 2em;
+}
+section{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    #welcome-section{
+        height: 10vh;
+        text-align: center;
+    }
+  }
